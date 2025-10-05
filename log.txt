@@ -16,3 +16,375 @@
 [2025-10-05 06:19:25] Site congestionado detectado. Processo reiniciado.
 [2025-10-05 06:19:25] Site congestionado detectado. Processo reiniciado.
 [2025-10-05 06:19:25] Site congestionado detectado. Processo reiniciado.
+[2025-10-05 06:35:38] Site congestionado detectado. Processo reiniciado.
+[2025-10-05 06:35:39] Site congestionado detectado. Processo reiniciado.
+[2025-10-05 06:35:39] Site congestionado detectado. Processo reiniciado.
+[2025-10-05 06:35:40] Site congestionado detectado. Processo reiniciado.
+[2025-10-05 06:35:40] Site congestionado detectado. Processo reiniciado.
+[2025-10-05 06:35:41] Site congestionado detectado. Processo reiniciado.
+[2025-10-05 07:54:03] Página de Human Verification detectada.
+[2025-10-05 07:57:23] Página de Human Verification detectada.
+[2025-10-05 08:02:39] Página de Human Verification detectada.
+[2025-10-05 08:04:52] Página de Human Verification detectada.
+[2025-10-05 08:05:54] Página de Human Verification detectada.
+[2025-10-05 08:07:25] Página de Human Verification detectada.
+[2025-10-05 08:10:28] Página de Human Verification detectada.
+[2025-10-05 08:12:48] Página de Human Verification detectada.
+[2025-10-05 10:55:26] Página de Human Verification detectada.
+[2025-10-05 10:56:11] Página de Human Verification detectada.
+[2025-10-05 10:57:40] Página de Human Verification detectada.
+[2025-10-05 10:59:14] Página de Human Verification detectada.
+[2025-10-05 11:01:09] Página de Human Verification detectada.
+[2025-10-05 11:03:00] Página de Human Verification detectada.
+[2025-10-05 11:04:40] Página de Human Verification detectada.
+[2025-10-05 11:05:40] Página de Human Verification detectada.
+[2025-10-05 11:06:38] Página de Human Verification detectada.
+[2025-10-05 11:27:14] Página de Human Verification detectada.
+[2025-10-05 11:28:53] Página de Human Verification detectada.
+[2025-10-05 11:30:26] Página de Human Verification detectada.
+[2025-10-05 11:32:48] Página de Human Verification detectada.
+[2025-10-05 11:34:22] Página de Human Verification detectada.
+[2025-10-05 11:36:58] Página de Human Verification detectada.
+[2025-10-05 11:38:17] Página de Human Verification detectada.
+[2025-10-05 11:40:24] Página de Human Verification detectada.
+[2025-10-05 11:41:49] Página de Human Verification detectada.
+[2025-10-05 11:43:11] Página de Human Verification detectada.
+[2025-10-05 11:43:26] Página de horários atualizada em step2.
+[2025-10-05 11:43:29] Página de horários atualizada em step2.
+[2025-10-05 11:43:31] Página de horários atualizada em step2.
+[2025-10-05 11:43:34] Página de horários atualizada em step2.
+[2025-10-05 11:43:36] Página de horários atualizada em step2.
+[2025-10-05 11:43:39] Página de horários atualizada em step2.
+[2025-10-05 11:43:41] Página de horários atualizada em step2.
+[2025-10-05 11:43:44] Página de horários atualizada em step2.
+[2025-10-05 11:43:46] Página de horários atualizada em step2.
+[2025-10-05 11:43:49] Página de horários atualizada em step2.
+[2025-10-05 11:43:51] Página de horários atualizada em step2.
+[2025-10-05 11:43:54] Página de horários atualizada em step2.
+[2025-10-05 11:43:56] Página de horários atualizada em step2.
+[2025-10-05 11:43:59] Página de horários atualizada em step2.
+[2025-10-05 11:44:01] Página de horários atualizada em step2.
+[2025-10-05 11:44:04] Página de horários atualizada em step2.
+[2025-10-05 11:44:06] Página de horários atualizada em step2.
+[2025-10-05 11:44:09] Página de horários atualizada em step2.
+[2025-10-05 11:44:11] Página de horários atualizada em step2.
+[2025-10-05 11:44:14] Página de horários atualizada em step2.
+[2025-10-05 11:44:17] Página de horários atualizada em step2.
+[2025-10-05 11:44:19] Página de horários atualizada em step2.
+[2025-10-05 11:44:22] Página de horários atualizada em step2.
+[2025-10-05 11:44:24] Página de horários atualizada em step2.
+[2025-10-05 11:44:27] Página de horários atualizada em step2.
+[2025-10-05 11:44:29] Página de horários atualizada em step2.
+[2025-10-05 11:44:32] Página de horários atualizada em step2.
+[2025-10-05 11:44:34] Página de horários atualizada em step2.
+[2025-10-05 11:44:37] Página de horários atualizada em step2.
+[2025-10-05 11:44:39] Página de horários atualizada em step2.
+[2025-10-05 11:44:42] Página de horários atualizada em step2.
+[2025-10-05 11:44:45] Página de horários atualizada em step2.
+[2025-10-05 11:44:47] Página de horários atualizada em step2.
+[2025-10-05 11:44:50] Página de horários atualizada em step2.
+[2025-10-05 11:44:52] Página de horários atualizada em step2.
+[2025-10-05 11:44:55] Página de horários atualizada em step2.
+[2025-10-05 11:44:57] Página de horários atualizada em step2.
+[2025-10-05 11:45:00] Página de horários atualizada em step2.
+[2025-10-05 11:45:02] Página de horários atualizada em step2.
+[2025-10-05 11:45:05] Página de horários atualizada em step2.
+[2025-10-05 11:45:07] Página de horários atualizada em step2.
+[2025-10-05 11:45:10] Página de horários atualizada em step2.
+[2025-10-05 11:45:12] Página de horários atualizada em step2.
+[2025-10-05 11:45:15] Página de horários atualizada em step2.
+[2025-10-05 11:45:17] Página de horários atualizada em step2.
+[2025-10-05 11:45:20] Página de horários atualizada em step2.
+[2025-10-05 11:45:22] Página de horários atualizada em step2.
+[2025-10-05 11:45:25] Página de horários atualizada em step2.
+[2025-10-05 11:45:27] Página de horários atualizada em step2.
+[2025-10-05 11:45:30] Página de horários atualizada em step2.
+[2025-10-05 11:45:32] Página de horários atualizada em step2.
+[2025-10-05 11:45:35] Página de horários atualizada em step2.
+[2025-10-05 11:45:37] Página de horários atualizada em step2.
+[2025-10-05 11:45:40] Página de horários atualizada em step2.
+[2025-10-05 11:45:42] Página de horários atualizada em step2.
+[2025-10-05 11:45:45] Página de horários atualizada em step2.
+[2025-10-05 11:45:47] Página de horários atualizada em step2.
+[2025-10-05 11:45:50] Página de horários atualizada em step2.
+[2025-10-05 11:45:52] Página de horários atualizada em step2.
+[2025-10-05 11:45:55] Página de horários atualizada em step2.
+[2025-10-05 11:45:57] Página de horários atualizada em step2.
+[2025-10-05 11:46:00] Página de horários atualizada em step2.
+[2025-10-05 11:46:02] Página de horários atualizada em step2.
+[2025-10-05 11:46:05] Página de horários atualizada em step2.
+[2025-10-05 11:46:07] Página de horários atualizada em step2.
+[2025-10-05 11:46:10] Página de horários atualizada em step2.
+[2025-10-05 11:46:12] Página de horários atualizada em step2.
+[2025-10-05 11:46:15] Página de horários atualizada em step2.
+[2025-10-05 11:46:18] Página de horários atualizada em step2.
+[2025-10-05 11:46:20] Página de horários atualizada em step2.
+[2025-10-05 11:46:23] Página de horários atualizada em step2.
+[2025-10-05 11:46:25] Página de horários atualizada em step2.
+[2025-10-05 11:46:28] Página de horários atualizada em step2.
+[2025-10-05 11:46:31] Página de horários atualizada em step2.
+[2025-10-05 11:46:33] Página de horários atualizada em step2.
+[2025-10-05 11:46:36] Página de horários atualizada em step2.
+[2025-10-05 11:46:38] Página de horários atualizada em step2.
+[2025-10-05 11:46:42] Página de horários atualizada em step2.
+[2025-10-05 11:46:44] Página de horários atualizada em step2.
+[2025-10-05 11:46:47] Página de horários atualizada em step2.
+[2025-10-05 11:46:49] Página de horários atualizada em step2.
+[2025-10-05 11:46:52] Página de horários atualizada em step2.
+[2025-10-05 11:46:54] Página de horários atualizada em step2.
+[2025-10-05 11:46:57] Página de horários atualizada em step2.
+[2025-10-05 11:46:59] Página de horários atualizada em step2.
+[2025-10-05 11:47:02] Página de horários atualizada em step2.
+[2025-10-05 11:47:04] Página de horários atualizada em step2.
+[2025-10-05 11:47:07] Página de horários atualizada em step2.
+[2025-10-05 11:47:09] Página de horários atualizada em step2.
+[2025-10-05 11:47:12] Página de horários atualizada em step2.
+[2025-10-05 11:47:15] Página de horários atualizada em step2.
+[2025-10-05 11:47:17] Página de horários atualizada em step2.
+[2025-10-05 11:47:20] Página de horários atualizada em step2.
+[2025-10-05 11:47:22] Página de horários atualizada em step2.
+[2025-10-05 11:47:25] Página de horários atualizada em step2.
+[2025-10-05 11:47:27] Página de horários atualizada em step2.
+[2025-10-05 11:47:30] Página de horários atualizada em step2.
+[2025-10-05 11:47:32] Página de horários atualizada em step2.
+[2025-10-05 11:47:35] Página de horários atualizada em step2.
+[2025-10-05 11:47:37] Página de horários atualizada em step2.
+[2025-10-05 11:47:40] Página de horários atualizada em step2.
+[2025-10-05 11:47:42] Página de horários atualizada em step2.
+[2025-10-05 11:47:45] Página de horários atualizada em step2.
+[2025-10-05 11:47:47] Página de horários atualizada em step2.
+[2025-10-05 11:47:50] Página de horários atualizada em step2.
+[2025-10-05 11:47:52] Página de horários atualizada em step2.
+[2025-10-05 11:47:55] Página de horários atualizada em step2.
+[2025-10-05 11:47:57] Página de horários atualizada em step2.
+[2025-10-05 11:48:00] Página de horários atualizada em step2.
+[2025-10-05 11:48:02] Página de horários atualizada em step2.
+[2025-10-05 11:48:05] Página de horários atualizada em step2.
+[2025-10-05 11:48:07] Página de horários atualizada em step2.
+[2025-10-05 11:48:10] Página de horários atualizada em step2.
+[2025-10-05 11:48:13] Página de horários atualizada em step2.
+[2025-10-05 11:48:16] Página de horários atualizada em step2.
+[2025-10-05 11:48:18] Página de horários atualizada em step2.
+[2025-10-05 11:48:21] Página de horários atualizada em step2.
+[2025-10-05 11:48:25] Página de horários atualizada em step2.
+[2025-10-05 11:48:29] Página de horários atualizada em step2.
+[2025-10-05 11:48:32] Página de horários atualizada em step2.
+[2025-10-05 11:48:35] Página de horários atualizada em step2.
+[2025-10-05 11:48:39] Página de horários atualizada em step2.
+[2025-10-05 11:48:42] Página de horários atualizada em step2.
+[2025-10-05 11:48:44] Página de horários atualizada em step2.
+[2025-10-05 11:48:48] Página de horários atualizada em step2.
+[2025-10-05 11:48:51] Página de horários atualizada em step2.
+[2025-10-05 11:48:54] Página de horários atualizada em step2.
+[2025-10-05 11:48:58] Página de horários atualizada em step2.
+[2025-10-05 11:49:01] Página de horários atualizada em step2.
+[2025-10-05 11:49:05] Página de horários atualizada em step2.
+[2025-10-05 11:49:08] Página de horários atualizada em step2.
+[2025-10-05 11:49:10] Página de horários atualizada em step2.
+[2025-10-05 11:51:32] Página de Human Verification detectada.
+[2025-10-05 11:52:59] Página de Human Verification detectada.
+[2025-10-05 11:53:16] Página de horários atualizada em step2.
+[2025-10-05 11:53:18] Página de horários atualizada em step2.
+[2025-10-05 11:53:21] Página de horários atualizada em step2.
+[2025-10-05 11:53:23] Página de horários atualizada em step2.
+[2025-10-05 11:53:26] Página de horários atualizada em step2.
+[2025-10-05 11:53:28] Página de horários atualizada em step2.
+[2025-10-05 11:53:31] Página de horários atualizada em step2.
+[2025-10-05 11:53:33] Página de horários atualizada em step2.
+[2025-10-05 11:53:35] Página de horários atualizada em step2.
+[2025-10-05 11:53:38] Página de horários atualizada em step2.
+[2025-10-05 11:53:41] Página de horários atualizada em step2.
+[2025-10-05 11:53:43] Página de horários atualizada em step2.
+[2025-10-05 11:53:45] Página de horários atualizada em step2.
+[2025-10-05 11:53:48] Página de horários atualizada em step2.
+[2025-10-05 11:53:51] Página de horários atualizada em step2.
+[2025-10-05 11:53:53] Página de horários atualizada em step2.
+[2025-10-05 11:53:55] Página de horários atualizada em step2.
+[2025-10-05 11:53:58] Página de horários atualizada em step2.
+[2025-10-05 11:54:00] Página de horários atualizada em step2.
+[2025-10-05 11:54:03] Página de horários atualizada em step2.
+[2025-10-05 11:54:05] Página de horários atualizada em step2.
+[2025-10-05 11:54:08] Página de horários atualizada em step2.
+[2025-10-05 11:54:10] Página de horários atualizada em step2.
+[2025-10-05 11:54:13] Página de horários atualizada em step2.
+[2025-10-05 11:54:15] Página de horários atualizada em step2.
+[2025-10-05 11:54:18] Página de horários atualizada em step2.
+[2025-10-05 11:54:20] Página de horários atualizada em step2.
+[2025-10-05 11:54:23] Página de horários atualizada em step2.
+[2025-10-05 11:54:25] Página de horários atualizada em step2.
+[2025-10-05 11:54:28] Página de horários atualizada em step2.
+[2025-10-05 11:54:30] Página de horários atualizada em step2.
+[2025-10-05 11:54:33] Página de horários atualizada em step2.
+[2025-10-05 11:54:35] Página de horários atualizada em step2.
+[2025-10-05 11:54:38] Página de horários atualizada em step2.
+[2025-10-05 11:54:40] Página de horários atualizada em step2.
+[2025-10-05 11:54:43] Página de horários atualizada em step2.
+[2025-10-05 11:54:45] Página de horários atualizada em step2.
+[2025-10-05 11:54:48] Página de horários atualizada em step2.
+[2025-10-05 11:54:50] Página de horários atualizada em step2.
+[2025-10-05 11:54:53] Página de horários atualizada em step2.
+[2025-10-05 11:54:55] Página de horários atualizada em step2.
+[2025-10-05 11:54:58] Página de horários atualizada em step2.
+[2025-10-05 11:55:00] Página de horários atualizada em step2.
+[2025-10-05 11:55:03] Página de horários atualizada em step2.
+[2025-10-05 11:55:05] Página de horários atualizada em step2.
+[2025-10-05 11:55:08] Página de horários atualizada em step2.
+[2025-10-05 11:55:10] Página de horários atualizada em step2.
+[2025-10-05 11:55:13] Página de horários atualizada em step2.
+[2025-10-05 11:55:15] Página de horários atualizada em step2.
+[2025-10-05 11:55:18] Página de horários atualizada em step2.
+[2025-10-05 11:55:21] Página de horários atualizada em step2.
+[2025-10-05 11:55:23] Página de horários atualizada em step2.
+[2025-10-05 11:55:26] Página de horários atualizada em step2.
+[2025-10-05 11:55:28] Página de horários atualizada em step2.
+[2025-10-05 11:55:31] Página de horários atualizada em step2.
+[2025-10-05 11:55:33] Página de horários atualizada em step2.
+[2025-10-05 11:55:36] Página de horários atualizada em step2.
+[2025-10-05 11:55:38] Página de horários atualizada em step2.
+[2025-10-05 11:55:41] Página de horários atualizada em step2.
+[2025-10-05 11:55:44] Página de horários atualizada em step2.
+[2025-10-05 11:55:47] Página de horários atualizada em step2.
+[2025-10-05 11:55:50] Página de horários atualizada em step2.
+[2025-10-05 11:55:52] Página de horários atualizada em step2.
+[2025-10-05 11:55:55] Página de horários atualizada em step2.
+[2025-10-05 11:55:57] Página de horários atualizada em step2.
+[2025-10-05 11:55:59] Página de horários atualizada em step2.
+[2025-10-05 11:56:02] Página de horários atualizada em step2.
+[2025-10-05 11:56:04] Página de horários atualizada em step2.
+[2025-10-05 11:56:07] Página de horários atualizada em step2.
+[2025-10-05 11:56:09] Página de horários atualizada em step2.
+[2025-10-05 11:56:12] Página de horários atualizada em step2.
+[2025-10-05 11:56:15] Página de horários atualizada em step2.
+[2025-10-05 11:56:17] Página de horários atualizada em step2.
+[2025-10-05 11:56:20] Página de horários atualizada em step2.
+[2025-10-05 11:56:22] Página de horários atualizada em step2.
+[2025-10-05 11:56:25] Página de horários atualizada em step2.
+[2025-10-05 11:56:27] Página de horários atualizada em step2.
+[2025-10-05 11:56:30] Página de horários atualizada em step2.
+[2025-10-05 11:56:32] Página de horários atualizada em step2.
+[2025-10-05 11:56:35] Página de horários atualizada em step2.
+[2025-10-05 11:56:37] Página de horários atualizada em step2.
+[2025-10-05 11:56:39] Página de horários atualizada em step2.
+[2025-10-05 11:56:42] Página de horários atualizada em step2.
+[2025-10-05 11:56:45] Página de horários atualizada em step2.
+[2025-10-05 11:56:47] Página de horários atualizada em step2.
+[2025-10-05 11:56:50] Página de horários atualizada em step2.
+[2025-10-05 11:56:52] Página de horários atualizada em step2.
+[2025-10-05 11:56:55] Página de horários atualizada em step2.
+[2025-10-05 11:56:57] Página de horários atualizada em step2.
+[2025-10-05 11:57:00] Página de horários atualizada em step2.
+[2025-10-05 11:57:02] Página de horários atualizada em step2.
+[2025-10-05 11:57:05] Página de horários atualizada em step2.
+[2025-10-05 11:57:07] Página de horários atualizada em step2.
+[2025-10-05 11:57:10] Página de horários atualizada em step2.
+[2025-10-05 11:57:12] Página de horários atualizada em step2.
+[2025-10-05 11:57:15] Página de horários atualizada em step2.
+[2025-10-05 11:57:17] Página de horários atualizada em step2.
+[2025-10-05 11:57:20] Página de horários atualizada em step2.
+[2025-10-05 11:57:22] Página de horários atualizada em step2.
+[2025-10-05 11:57:25] Página de horários atualizada em step2.
+[2025-10-05 11:57:27] Página de horários atualizada em step2.
+[2025-10-05 11:57:30] Página de horários atualizada em step2.
+[2025-10-05 11:57:32] Página de horários atualizada em step2.
+[2025-10-05 11:57:35] Página de horários atualizada em step2.
+[2025-10-05 11:57:37] Página de horários atualizada em step2.
+[2025-10-05 11:57:40] Página de horários atualizada em step2.
+[2025-10-05 11:57:42] Página de horários atualizada em step2.
+[2025-10-05 11:57:45] Página de horários atualizada em step2.
+[2025-10-05 11:57:47] Página de horários atualizada em step2.
+[2025-10-05 11:57:50] Página de horários atualizada em step2.
+[2025-10-05 11:57:52] Página de horários atualizada em step2.
+[2025-10-05 11:57:55] Página de horários atualizada em step2.
+[2025-10-05 11:57:57] Página de horários atualizada em step2.
+[2025-10-05 11:58:01] Página de horários atualizada em step2.
+[2025-10-05 11:58:04] Página de horários atualizada em step2.
+[2025-10-05 11:58:06] Página de horários atualizada em step2.
+[2025-10-05 11:58:09] Página de horários atualizada em step2.
+[2025-10-05 11:58:13] Página de Human Verification detectada.
+[2025-10-05 11:58:59] Página de horários atualizada em step2.
+[2025-10-05 11:59:02] Página de horários atualizada em step2.
+[2025-10-05 11:59:05] Página de horários atualizada em step2.
+[2025-10-05 11:59:07] Página de horários atualizada em step2.
+[2025-10-05 11:59:10] Página de horários atualizada em step2.
+[2025-10-05 11:59:12] Página de horários atualizada em step2.
+[2025-10-05 11:59:15] Página de horários atualizada em step2.
+[2025-10-05 11:59:17] Página de horários atualizada em step2.
+[2025-10-05 11:59:20] Página de horários atualizada em step2.
+[2025-10-05 11:59:22] Página de horários atualizada em step2.
+[2025-10-05 11:59:25] Página de horários atualizada em step2.
+[2025-10-05 11:59:27] Página de horários atualizada em step2.
+[2025-10-05 11:59:30] Página de horários atualizada em step2.
+[2025-10-05 11:59:32] Página de horários atualizada em step2.
+[2025-10-05 11:59:35] Página de horários atualizada em step2.
+[2025-10-05 11:59:37] Página de horários atualizada em step2.
+[2025-10-05 11:59:40] Página de horários atualizada em step2.
+[2025-10-05 11:59:42] Página de horários atualizada em step2.
+[2025-10-05 11:59:45] Página de horários atualizada em step2.
+[2025-10-05 11:59:47] Página de horários atualizada em step2.
+[2025-10-05 11:59:50] Página de horários atualizada em step2.
+[2025-10-05 11:59:52] Página de horários atualizada em step2.
+[2025-10-05 11:59:55] Página de horários atualizada em step2.
+[2025-10-05 11:59:57] Página de horários atualizada em step2.
+[2025-10-05 12:00:00] Página de horários atualizada em step2.
+[2025-10-05 12:00:03] Página de horários atualizada em step2.
+[2025-10-05 12:00:06] Página de horários atualizada em step2.
+[2025-10-05 12:00:08] Página de horários atualizada em step2.
+[2025-10-05 12:00:11] Página de horários atualizada em step2.
+[2025-10-05 12:00:13] Página de horários atualizada em step2.
+[2025-10-05 12:00:15] Página de horários atualizada em step2.
+[2025-10-05 12:00:19] Página de horários atualizada em step2.
+[2025-10-05 12:00:22] Página de horários atualizada em step2.
+[2025-10-05 12:00:24] Página de horários atualizada em step2.
+[2025-10-05 12:00:27] Página de horários atualizada em step2.
+[2025-10-05 12:00:29] Página de horários atualizada em step2.
+[2025-10-05 12:00:32] Página de horários atualizada em step2.
+[2025-10-05 12:00:34] Página de horários atualizada em step2.
+[2025-10-05 12:00:37] Página de horários atualizada em step2.
+[2025-10-05 12:00:39] Página de horários atualizada em step2.
+[2025-10-05 12:00:42] Página de horários atualizada em step2.
+[2025-10-05 12:00:45] Página de horários atualizada em step2.
+[2025-10-05 12:00:47] Página de horários atualizada em step2.
+[2025-10-05 12:00:50] Página de horários atualizada em step2.
+[2025-10-05 12:00:52] Página de horários atualizada em step2.
+[2025-10-05 12:00:55] Página de horários atualizada em step2.
+[2025-10-05 12:00:57] Página de horários atualizada em step2.
+[2025-10-05 12:00:59] Página de horários atualizada em step2.
+[2025-10-05 12:01:02] Página de horários atualizada em step2.
+[2025-10-05 12:01:05] Página de horários atualizada em step2.
+[2025-10-05 12:01:07] Página de horários atualizada em step2.
+[2025-10-05 12:01:10] Página de horários atualizada em step2.
+[2025-10-05 12:01:12] Página de horários atualizada em step2.
+[2025-10-05 12:01:15] Página de horários atualizada em step2.
+[2025-10-05 12:01:17] Página de horários atualizada em step2.
+[2025-10-05 12:01:20] Página de horários atualizada em step2.
+[2025-10-05 12:01:22] Página de horários atualizada em step2.
+[2025-10-05 12:30:11] Página de Human Verification detectada.
+[2025-10-05 20:40:33] Página de Human Verification detectada.
+[2025-10-05 20:42:03] Página de Human Verification detectada.
+[2025-10-05 20:42:23] Página de horários atualizada em step2.
+[2025-10-05 20:42:26] Página de horários atualizada em step2.
+[2025-10-05 20:42:28] Página de horários atualizada em step2.
+[2025-10-05 20:42:31] Página de horários atualizada em step2.
+[2025-10-05 20:42:33] Página de horários atualizada em step2.
+[2025-10-05 20:42:36] Página de horários atualizada em step2.
+[2025-10-05 20:43:51] Página de Human Verification detectada.
+[2025-10-05 20:46:56] Página de Human Verification detectada.
+[2025-10-05 20:48:31] Página de Human Verification detectada.
+[2025-10-05 20:48:57] Página de horários atualizada em step2.
+[2025-10-05 20:48:59] Página de horários atualizada em step2.
+[2025-10-05 20:49:02] Página de horários atualizada em step2.
+[2025-10-05 20:49:04] Página de horários atualizada em step2.
+[2025-10-05 20:49:07] Página de horários atualizada em step2.
+[2025-10-05 20:50:26] Página de Human Verification detectada.
+[2025-10-05 20:51:40] Página de Human Verification detectada.
+[2025-10-05 20:52:02] Página de horários atualizada em step2.
+[2025-10-05 20:52:05] Página de horários atualizada em step2.
+[2025-10-05 20:52:07] Página de horários atualizada em step2.
+[2025-10-05 20:52:10] Página de horários atualizada em step2.
+[2025-10-05 20:52:12] Página de horários atualizada em step2.
+[2025-10-05 20:52:15] Página de horários atualizada em step2.
+[2025-10-05 20:52:17] Página de horários atualizada em step2.
+[2025-10-05 20:52:20] Página de horários atualizada em step2.
+[2025-10-05 20:52:22] Página de horários atualizada em step2.
+[2025-10-05 20:52:25] Página de horários atualizada em step2.
+[2025-10-05 20:52:27] Página de horários atualizada em step2.

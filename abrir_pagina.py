@@ -13,8 +13,13 @@ from bs4 import BeautifulSoup
 CHROMEDRIVER_PATH = r'./chromedriver.exe'  # Atualize se necessário
 
 
-# URL para abrir
-URL = 'https://osaka.pokemon-cafe.jp/'
+
+# URLs disponíveis
+URL_OSAKA = 'https://osaka.pokemon-cafe.jp/'
+URL_TOKYO = 'https://reserve.pokemon-cafe.jp/'
+
+# Escolha qual URL usar
+URL = URL_TOKYO  # Altere para URL_TOKYO se quiser usar o outro site
 
 
 num_of_guests = '2'  # Número de convidados a selecionar
@@ -104,7 +109,7 @@ try:
 
         # Se estiver na página de confirmação de autenticação, tenta clicar no botão '予約へ進む'
         try:
-            if driver.current_url == 'https://osaka.pokemon-cafe.jp/reserve/auth_confirm':
+            if driver.current_url == URL_OSAKA + 'reserve/auth_confirm' or driver.current_url == URL_TOKYO + 'reserve/auth_confirm':
                 proceed_btn = WebDriverWait(driver, 20).until(
                     EC.element_to_be_clickable((By.XPATH, "//*[contains(text(), '予約へ進む')]") )
                 )
@@ -115,7 +120,7 @@ try:
 
         # Se estiver na página de seleção de convidados, seleciona o número e clica no dia do calendário
         try:
-            if driver.current_url == 'https://osaka.pokemon-cafe.jp/reserve/step1':
+            if driver.current_url == URL_OSAKA + 'reserve/step1' or driver.current_url == URL_TOKYO + 'reserve/step1':
                 from selenium.webdriver.support.ui import Select
                 select = Select(driver.find_element(By.NAME, 'guest'))
                 select.select_by_index(num_of_guests)
@@ -246,7 +251,7 @@ try:
 
         # Se estiver na página de preenchimento de dados (step3), preenche e envia o formulário
         try:
-            if driver.current_url == 'https://osaka.pokemon-cafe.jp/reserve/step3':
+            if driver.current_url == URL_OSAKA + 'reserve/step3' or driver.current_url == URL_TOKYO + 'reserve/step3':
                 time.sleep(2)
                 driver.find_element(By.ID, 'name').send_keys(user_name)
                 driver.find_element(By.ID, 'name_kana').send_keys(user_name_kana)

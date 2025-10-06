@@ -24,7 +24,7 @@ URL = URL_TOKYO  # Altere para URL_TOKYO se quiser usar o outro site
 
 num_of_guests = '2'  # Número de convidados a selecionar
 # Data da reserva (formato: YYYY-MM-DD)
-reservation_date = dt.date(2025, 11, 4)  # Exemplo: 6 de novembro de 2025
+reservation_date = dt.date(2025, 11, 4)  # Exemplo: 4 de novembro de 2025
 
 # Dados do formulário de reserva
 user_name = 'Rodrigo Azevedo'
@@ -111,7 +111,7 @@ try:
         try:
             if driver.current_url == URL_OSAKA + 'reserve/auth_confirm' or driver.current_url == URL_TOKYO + 'reserve/auth_confirm':
                 proceed_btn = WebDriverWait(driver, 20).until(
-                    EC.element_to_be_clickable((By.XPATH, "//*[contains(text(), '予約へ進む')]") )
+                    EC.element_to_be_clickable((By.XPATH, "//*[contains(text(), '予約へ進む')]"))
                 )
                 proceed_btn.click()
                 print("Clicou em '予約へ進む'.")
@@ -163,7 +163,7 @@ try:
                 import re
                 while True:
                     calendar_header = driver.find_element(By.XPATH, "//h3[contains(., '年') and contains(., '月')]" ).text
-                    match = re.search(r'(\d{4})年(\d{1,2})月S', calendar_header)
+                    match = re.search(r'(\d{4})年(\d{1,2})月', calendar_header)
                     if match:
                         cal_year = int(match.group(1))
                         cal_month = int(match.group(2))
@@ -188,27 +188,110 @@ try:
 
                 # Agora sim, clica no dia correspondente à variável reservation_date.day
                 try:
-                    day_cells = driver.find_elements(By.XPATH, f"//li[contains(@class, 'calendar-day-cell') and .//div[text()='{reservation_date.day}']]")
-                    print(f"[DEBUG] Encontrou {len(day_cells)} células para o dia {reservation_date.day}.")
+                    from bs4 import BeautifulSoup
+                    page_html = driver.page_source
+                    soup = BeautifulSoup(page_html, 'html.parser')
+                    calendar_cells = soup.find_all("li", class_="calendar-day-cell")
+                    print(f"[DEBUG][BS] Encontrou {len(calendar_cells)} células no calendário.")
+                    target_data_date = reservation_date.strftime('%Y-%m-%d')
                     clicked = False
-                    for idx, cell in enumerate(day_cells):
-                        cell_classes = cell.get_attribute('class')
-                        cell_text = cell.text
-                        print(f"[DEBUG] Célula {idx}: classes={cell_classes}, texto={cell_text}")
-                        if 'calendar-day-other-month' not in cell_classes:
-                            print(f"[DEBUG] Clicando na célula {idx} do dia {reservation_date.day}.")
-                            cell.click()
-                            time.sleep(1)
-                            try:
-                                next_btn = driver.find_element(By.ID, 'submit_button')
-                                next_btn.click()
-                                print("Clicou no botão com id 'submit_button'.")
-                            except Exception as e:
-                                print("Não conseguiu clicar no botão '次に進む' (Next Step).", e)
-                            clicked = True
-                            break
+                    for idx, cell in enumerate(calendar_cells):
+                        cell_classes = cell.get("class", [])
+                        cell_text = cell.get_text(strip=True)
+                        data_date = cell.get("data-date")
+                        print(f"[DEBUG][BS] Célula {idx}: classes={cell_classes}, texto={cell_text}, data-date={data_date}")
+                        # Prioridade: data-date igual à data desejada
+                        if data_date == target_data_date:
+                            print(f"[DEBUG][BS] Clicando na célula {idx} do dia {reservation_date.day} ({data_date}) via Selenium.")
+                            selenium_cells = driver.find_elements(By.CLASS_NAME, 'calendar-day-cell')
+                            if idx < len(selenium_cells):
+                                selenium_cells[idx].click()
+                                time.sleep(1)
+                                try:
+                                    next_btn = driver.find_element(By.ID, 'submit_button')
+                                    next_btn.click()
+                                    print("Clicou no botão com id 'submit_button'.")
+                                except Exception as e:
+                                    print("Não conseguiu clicar no botão '次に進む' (Next Step).", e)
+                                clicked = True
+                                break
+                    # Fallback: se não encontrou pelo data-date, tenta por classe e texto
                     if not clicked:
-                        print(f"[DEBUG] Não encontrou célula do dia {reservation_date.day} do mês correto.")
+                        # Busca todas as células do dia desejado
+                        candidate_idxs = []
+                        for idx, cell in enumerate(calendar_cells):
+                            cell_classes = cell.get("class", [])
+                            cell_text = cell.get_text(strip=True)
+                            if cell_text.startswith(str(reservation_date.day)):
+                                candidate_idxs.append(idx)
+                        # Se houver mais de uma, tenta escolher a do mês correto
+                        if candidate_idxs:
+                            # Obtém mês/ano do calendário
+                            calendar_header = driver.find_element(By.XPATH, "//h3[contains(., '年') and contains(., '月')]").text
+                            import re
+                            match = re.search(r'(\d{4})年(\d{1,2})月', calendar_header)
+                            cal_year = int(match.group(1)) if match else reservation_date.year
+                            cal_month = int(match.group(2)) if match else reservation_date.month
+                            for idx in candidate_idxs:
+                                cell = calendar_cells[idx]
+                                # Se o atributo data-date existir, confere mês/ano
+                                data_date = cell.get("data-date")
+                                if data_date:
+                                    try:
+                                        y, m, d = map(int, data_date.split('-'))
+                                        if y == cal_year and m == cal_month:
+                                            print(f"[DEBUG][BS] Fallback: clicando na célula {idx} do dia {reservation_date.day} ({data_date}) do mês correto via Selenium.")
+                                            selenium_cells = driver.find_elements(By.CLASS_NAME, 'calendar-day-cell')
+                                            if idx < len(selenium_cells):
+                                                selenium_cells[idx].click()
+                                                time.sleep(1)
+                                                try:
+                                                    next_btn = driver.find_element(By.ID, 'submit_button')
+                                                    next_btn.click()
+                                                    print("Clicou no botão com id 'submit_button'.")
+                                                except Exception as e:
+                                                    print("Não conseguiu clicar no botão '次に進む' (Next Step).", e)
+                                                clicked = True
+                                                break
+                                    except Exception:
+                                        pass
+                                else:
+                                    # Se não tem data-date, identifica o início do mês atual
+                                    # Busca o índice da primeira célula sem 'calendar-day-other-month'
+                                    first_current_month_idx = None
+                                    for i, c in enumerate(calendar_cells):
+                                        c_classes = c.get("class", [])
+                                        if 'calendar-day-other-month' not in c_classes:
+                                            first_current_month_idx = i
+                                            break
+                                    # Nova lógica: se o dia for > 25, clica na segunda célula; se < 7, clica na primeira
+                                    candidate_idxs = []
+                                    for idx, cell in enumerate(calendar_cells):
+                                        cell_text = cell.get_text(strip=True)
+                                        if cell_text.startswith(str(reservation_date.day)):
+                                            candidate_idxs.append(idx)
+                                    print(f"[DEBUG][BS] Indices candidatos para o dia {reservation_date.day}: {candidate_idxs}")
+                                    selenium_cells = driver.find_elements(By.CLASS_NAME, 'calendar-day-cell')
+                                    if candidate_idxs:
+                                        if reservation_date.day > 25 and len(candidate_idxs) > 1:
+                                            target_idx = candidate_idxs[1]
+                                            print(f"[DEBUG][BS] Dia > 25, clicando na segunda célula de índice {target_idx}.")
+                                        else:
+                                            target_idx = candidate_idxs[0]
+                                            print(f"[DEBUG][BS] Dia < 7 ou padrão, clicando na primeira célula de índice {target_idx}.")
+                                        if target_idx < len(selenium_cells):
+                                            selenium_cells[target_idx].click()
+                                            time.sleep(1)
+                                            try:
+                                                next_btn = driver.find_element(By.ID, 'submit_button')
+                                                next_btn.click()
+                                                print("Clicou no botão com id 'submit_button'.")
+                                            except Exception as e:
+                                                print("Não conseguiu clicar no botão '次に進む' (Next Step).", e)
+                                            clicked = True
+                                            break
+                        if not clicked:
+                            print(f"[DEBUG][BS] Não encontrou célula do dia {reservation_date.day} do mês correto.")
                 except Exception as e:
                     print(f"Não conseguiu clicar no dia {reservation_date.day} do calendário.", e)
         except Exception as e:
